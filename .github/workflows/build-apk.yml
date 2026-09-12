@@ -14,8 +14,7 @@ jobs:
       - name: Descompactar projeto
         run: |
           mkdir -p project
-          unzip -q ALTA_Treino_Vendas_Android_Gazin_EVOLUIDO.zip -d project
-
+          unzip -q ALTA_Simulador_Vendedor_Gazin_GAME_PRODUTOS.zip -d project
       - name: Localizar projeto Android
         run: |
           PROJECT_DIR=$(dirname "$(find project -name settings.gradle -print -quit)")
